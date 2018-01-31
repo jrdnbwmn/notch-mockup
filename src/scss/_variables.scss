@@ -1,24 +1,24 @@
 // Colors
 // -------------------------------------------------------------------
 // Grayscale
-
-$darkest-gray:            #2d3436 !default;
-$dark-gray:               #636e72 !default;
-$light-gray:              #b2bec3 !default;
-$lightest-gray:           #dfe6e9 !default;
-$shade:                   #f3f6f7 !default;
 $white:                   #ffffff !default;
+$gray-1:                  #f6f6f6 !default;
+$gray-2:                  #dddddd !default;
+$gray-3:                  #b2b2b2 !default;
+$gray-4:                  #909090 !default;
+$gray-5:                  #6e6e6e !default;
+$gray-6:                  #4c4c4c !default;
 
 // Hues
 $blue:                    #17a7ef !default;
 $turquoise:               #15c6a3 !default;
-$green:                   #79c40f !default;
+$green:                   #71c10f !default;
 $yellow:                  #fcb620 !default;
 $orange:                  #f27d1d !default;
 $red:                     #d12929 !default;
-$pink:                    #dd44aa !default;
+$pink:                    #dd46a5 !default;
 $purple:                  #8446ba !default;
-$brown:                   #874f1c !default;
+$brown:                   #8e541d !default;
 
 // Hue names
 $blueberry:               $blue !default;
@@ -76,7 +76,7 @@ $h5--desktop:             .75rem !default;
 $h6--desktop:             .75rem !default;
 
 // Text color
-$text-color:              $dark-gray !default;
+$text-color:              $gray-5 !default;
 
 // Text sizes
 $font-size--mobile:       15px !default;
@@ -137,9 +137,9 @@ $form-padding:            .6rem .9rem .5rem !default;
 
 // Borders
 // -------------------------------------------------------------------
-$border-color:            $light-gray !default;
+$border-color:            $gray-2 !default;
 $border-style:            solid !default;
-$border-radius:           4px !default;
+$border-radius:           6px !default;
 $border-width:            1px !default;
 
 

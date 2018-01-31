@@ -6,8 +6,8 @@
 // input (of any type)
 .form-control {
     background-image: none; // Reset unusual Firefox-on-Android default style
-    background-color: $shade;
-    border: 1px solid $shade;
+    background-color: $gray-2;
+    border: 1px solid $gray-2;
     border-radius: $border-radius;
     color: $text-color;
     display: block;
@@ -72,8 +72,8 @@
 }
 
 .select select {
-    background-color: $shade;
-    border: 1px solid $shade;
+    background-color: $gray-2;
+    border: 1px solid $gray-2;
     border-radius: $border-radius;
     color: $text-color;
     cursor: pointer;
@@ -114,13 +114,13 @@
 // Placeholder styling
 // -------------------------------------------------------------------
 ::-webkit-input-placeholder {
-    color: $dark-gray;
+    color: $gray-5;
     -webkit-font-smoothing: antialiased;
 }
 ::-moz-placeholder {
-    color: $dark-gray;
+    color: $gray-5;
     -moz-osx-font-smoothing: grayscale;
 }
 :-ms-input-placeholder {
-    color: $dark-gray;
+    color: $gray-5;
 }

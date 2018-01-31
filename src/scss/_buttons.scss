@@ -43,8 +43,7 @@
     }
 
     @media screen and (max-width: $breakpoint--sm) {
-        display: block;
-        margin-bottom: $space-1;
+        margin: 0 auto $space-1 auto;
     }
 }
 
@@ -77,22 +76,22 @@ a.btn {
 }
 
 // Outline button
-.btn--outline,
-.btn--outline:visited {
-    background-color: $shade;
-    border-color: $shade;
+.btn--gray,
+.btn--gray:visited {
+    background-color: $gray-2;
+    border-color: $gray-2;
     border-width: 1px;
     color: $text-color;
 
     &:hover,
     &:focus {
-        background-color: $lightest-gray;
-        border-color: $lightest-gray;
+        background-color: $gray-3;
+        border-color: $gray-3;
     }
 
     &:active {
-        background-color: $light-gray;
-        border-color: $light-gray;
+        background-color: $gray-4;
+        border-color: $gray-4;
     }
 }
 
@@ -111,8 +110,8 @@ a.btn {
     }
 
     &:active {
-        background-color: $lightest-gray;
-        border-color: $lightest-gray;
+        background-color: $gray-1;
+        border-color: $gray-1;
         color: $text-color;
     }
 }

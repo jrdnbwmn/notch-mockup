@@ -2,10 +2,10 @@
 // -------------------------------------------------------------------
 // Grayscale
 .text--white               { color: $white; }
-.text--lightest-gray       { color: $lightest-gray; }
-.text--light-gray          { color: $light-gray; }
-.text--dark-gray           { color: $dark-gray; }
-.text--darkest-gray        { color: $darkest-gray; }
+.text--gray-1       { color: $gray-1; }
+.text--gray-2          { color: $gray-2; }
+.text--gray-5           { color: $gray-5; }
+.text--gray-6        { color: $gray-6; }
 
 // Color scheme
 .text--primary-color       { color: $primary-color; }
@@ -16,11 +16,13 @@
 // Background colors
 // -------------------------------------------------------------------
 // Grayscale
+.bg--gray-1                { background-color: $gray-1; }
+.bg--gray-2                { background-color: $gray-2; }
+.bg--gray-3                { background-color: $gray-3; }
+.bg--gray-4                { background-color: $gray-4; }
+.bg--gray-5                { background-color: $gray-5; }
+.bg--gray-6                { background-color: $gray-6; }
 .bg--white                 { background-color: $white; }
-.bg--lightest-gray         { background-color: $lightest-gray; }
-.bg--light-gray            { background-color: $light-gray; }
-.bg--dark-gray             { background-color: $dark-gray; }
-.bg--darkest-gray          { background-color: $darkest-gray; }
 
 // Color scheme
 .bg--primary-color         { background-color: $primary-color; }
