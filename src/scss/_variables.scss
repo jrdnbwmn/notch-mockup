@@ -10,14 +10,26 @@ $shade:                   #f3f6f7 !default;
 $white:                   #ffffff !default;
 
 // Hues
-$blue:                    #3498db !default;
-$turquoise:               #1abc9c !default;
-$green:                   #2ecc71 !default;
-$yellow:                  #fddf5b !default;
-$orange:                  #EF661A !default;
-$red:                     #e74c3c !default;
-$pink:                    #E429A0 !default;
-$purple:                  #9b59b6 !default;
+$blue:                    #17a7ef !default;
+$turquoise:               #15c6a3 !default;
+$green:                   #79c40f !default;
+$yellow:                  #fcb620 !default;
+$orange:                  #f27d1d !default;
+$red:                     #d12929 !default;
+$pink:                    #dd44aa !default;
+$purple:                  #8446ba !default;
+$brown:                   #874f1c !default;
+
+// Hue names
+$blueberry:               $blue !default;
+$mint:                    $turquoise !default; // mint
+$kiwi:                    $green !default;
+$banana:                  $yellow !default;
+$pumpkin:                 $orange !default;
+$raspberry:               $red !default;
+$grapefruit:              $pink !default; // watermelon, grapefruit
+$plum:                    $purple !default; // grape, plum, fig
+$cocoa:                   $brown !default;
 
 // Color scheme
 $primary-color:           $blue !default;
