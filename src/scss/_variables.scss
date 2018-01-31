@@ -1,20 +1,23 @@
 // Colors
 // -------------------------------------------------------------------
 // Grayscale
-$gray-base:               #87919d !default;
 
-$black:                   #000 !default;
-$darkest-gray:            darken($gray-base, 36%) !default;
-$dark-gray:               darken($gray-base, 18%) !default;
-$gray:                    $gray-base !default;
-$light-gray:              lighten($gray-base, 18%) !default;
-$lightest-gray:           lighten($gray-base, 36%) !default;
-$white:                   #fff !default;
+$darkest-gray:            #2d3436 !default;
+$dark-gray:               #636e72 !default;
+$light-gray:              #b2bec3 !default;
+$lightest-gray:           #dfe6e9 !default;
+$shade:                   #f3f6f7 !default;
+$white:                   #ffffff !default;
 
 // Hues
-$blue:                    #428bca !default;
-$green:                   #6fbb57 !default;
-$orange:                  #f0ad4e !default;
+$blue:                    #3498db !default;
+$turquoise:               #1abc9c !default;
+$green:                   #2ecc71 !default;
+$yellow:                  #fddf5b !default;
+$orange:                  #EF661A !default;
+$red:                     #e74c3c !default;
+$pink:                    #E429A0 !default;
+$purple:                  #9b59b6 !default;
 
 // Color scheme
 $primary-color:           $blue !default;
@@ -64,8 +67,8 @@ $h6--desktop:             .75rem !default;
 $text-color:              $dark-gray !default;
 
 // Text sizes
-$font-size--mobile:       14px !default;
-$font-size--desktop:      15px !default;
+$font-size--mobile:       15px !default;
+$font-size--desktop:      16px !default;
 $font-size--lg:           $h3 !default;
 $font-size--sm:           $h5 !default;
 
@@ -110,35 +113,21 @@ $link-hover-color:        darken($primary-color, 10%) !default;
 $active-link-color:       darken($primary-color, 25%) !default;
 
 
-// Code
-// -------------------------------------------------------------------
-// Code colors
-$code-color:              $dark-gray !default;
-$code-bg-color:           $lightest-gray !default;
-$code-padding:            $baseline*2 $baseline*2 !default;
-
-
-// Tables
-// -------------------------------------------------------------------
-$table-padding:           $baseline*2 $baseline*2 !default;
-
-
 // Buttons
 // -------------------------------------------------------------------
-$button-padding:          .45rem 1rem .35rem !default;
-$button-padding--sm:      .1rem .6rem 0 !default;
+$button-padding:          .6rem 1.3rem .5rem !default;
 
 
 // Forms
 // -------------------------------------------------------------------
-$form-padding:            .45rem .8rem .35rem !default;
+$form-padding:            .6rem .9rem .5rem !default;
 
 
 // Borders
 // -------------------------------------------------------------------
 $border-color:            $light-gray !default;
 $border-style:            solid !default;
-$border-radius:           3px !default;
+$border-radius:           4px !default;
 $border-width:            1px !default;
 
 

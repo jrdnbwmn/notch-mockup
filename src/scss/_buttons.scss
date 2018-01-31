@@ -56,14 +56,6 @@ a.btn {
 }
 
 
-// Button sizes
-// -------------------------------------------------------------------
-.btn--sm {
-    font-size: $h6;
-    padding:$button-padding--sm;
-}
-
-
 // Button skins
 // -------------------------------------------------------------------
 // Default button
@@ -87,19 +79,19 @@ a.btn {
 // Outline button
 .btn--outline,
 .btn--outline:visited {
-    background-color: transparent;
-    border-color: $border-color;
+    background-color: $shade;
+    border-color: $shade;
     border-width: 1px;
     color: $text-color;
 
     &:hover,
     &:focus {
-        background-color: transparent;
-        border-color: $dark-gray;
+        background-color: $lightest-gray;
+        border-color: $lightest-gray;
     }
 
     &:active {
-        background-color: transparent;
+        background-color: $light-gray;
         border-color: $light-gray;
     }
 }
