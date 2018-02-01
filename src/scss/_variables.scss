@@ -2,7 +2,7 @@
 // -------------------------------------------------------------------
 // Grayscale
 $white:                   #ffffff !default;
-$gray-1:                  #f6f6f6 !default;
+$gray-1:                  #eeeeee !default;
 $gray-2:                  #dddddd !default;
 $gray-3:                  #b2b2b2 !default;
 $gray-4:                  #909090 !default;
@@ -10,15 +10,15 @@ $gray-5:                  #6e6e6e !default;
 $gray-6:                  #4c4c4c !default;
 
 // Hues
-$blue:                    #17a7ef !default;
-$turquoise:               #15c6a3 !default;
-$green:                   #71c10f !default;
-$yellow:                  #fcb620 !default;
-$orange:                  #f27d1d !default;
-$red:                     #d12929 !default;
-$pink:                    #dd46a5 !default;
-$purple:                  #8446ba !default;
-$brown:                   #8e541d !default;
+$blue:                    #16a0e5 !default;
+$turquoise:               #18c9a5 !default;
+$green:                   #72c111 !default;
+$yellow:                  #f9b520 !default;
+$orange:                  #f98320 !default;
+$red:                     #d82d2d !default;
+$pink:                    #db4aa6 !default;
+$purple:                  #8647bc !default;
+$brown:                   #9e6025 !default;
 
 // Hue names
 $blueberry:               $blue !default;
@@ -32,8 +32,8 @@ $plum:                    $purple !default; // grape, plum, fig
 $cocoa:                   $brown !default;
 
 // Color scheme
-$primary-color:           $blue !default;
-$secondary-color:         $green !default;
+$primary-color:           $green !default;
+$secondary-color:         $blue !default;
 $tertiary-color:          $orange !default;
 
 
@@ -107,10 +107,10 @@ $max-container-width:     45em !default;
 
 // Spaces
 // -------------------------------------------------------------------
-$space-1:                 $baseline*2 !default;
-$space-2:                 $baseline*5 !default;
-$space-3:                 $baseline*8 !default;
-$space-4:                 $baseline*11 !default;
+$space-1:                 $baseline !default;
+$space-2:                 $baseline*2 !default;
+$space-3:                 $baseline*4 !default;
+$space-4:                 $baseline*6 !default;
 
 // Specific margins
 $p-mb:                    $space-2 !default;

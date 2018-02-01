@@ -6,8 +6,8 @@
 // input (of any type)
 .form-control {
     background-image: none; // Reset unusual Firefox-on-Android default style
-    background-color: $gray-2;
-    border: 1px solid $gray-2;
+    background-color: transparent;
+    border: 2px solid $gray-2;
     border-radius: $border-radius;
     color: $text-color;
     display: block;
@@ -16,8 +16,15 @@
     line-height: $line-height--base;
     max-width: 100%;
     padding: $form-padding;
+    transition: border-color $fade;
     width: 100%;
     -moz-osx-font-smoothing: grayscale;
+
+    &:active,
+    &:focus {
+        border-color: $primary-color;
+    }
+
 }
 
 .label {
@@ -72,8 +79,8 @@
 }
 
 .select select {
-    background-color: $gray-2;
-    border: 1px solid $gray-2;
+    background-color: transparent;
+    border: 2px solid $gray-2;
     border-radius: $border-radius;
     color: $text-color;
     cursor: pointer;

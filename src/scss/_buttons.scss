@@ -4,7 +4,7 @@
     background-image: none; // Reset unusual Firefox-on-Android default style: https://github.com/necolas/normalize.css/issues/214
     border-radius: $border-radius;
     border-style: solid;
-    border-width: 1px;
+    border-width: 2px;
     cursor: pointer;
     display: inline-block; // Allow us to better style box model properties
     font-family: $font-family--ui;
@@ -75,20 +75,38 @@ a.btn {
 // Outline button
 .btn--gray,
 .btn--gray:visited {
-    background-color: $gray-2;
+    background-color: transparent;
     border-color: $gray-2;
-    border-width: 1px;
+    border-width: 2px;
     color: $text-color;
 
     &:hover,
     &:focus {
-        background-color: $gray-3;
-        border-color: $gray-3;
+        background-color: $gray-1;
+        border-color: $gray-2;
     }
 
     &:active {
-        background-color: $gray-4;
-        border-color: $gray-4;
+        background-color: $gray-2;
+        border-color: $gray-2;
+    }
+}
+
+// Orange button
+.btn--orange {
+    background-color: $orange;
+    border-color: $orange;
+    color: $white;
+
+    &:hover,
+    &:focus {
+        background-color: darken($orange, 10%);
+        border-color: darken($orange, 10%);
+    }
+
+    &:active {
+        background-color: darken($orange, 20%);
+        border-color: darken($orange, 20%);
     }
 }
 
