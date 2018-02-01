@@ -9,6 +9,7 @@
     display: inline-block; // Allow us to better style box model properties
     font-family: $font-family--ui;
     font-size: 1rem;
+    font-weight: bold;
     line-height: $line-height--base;
     margin-bottom: 0; // For input.btn
     padding: $button-padding;
@@ -40,10 +41,6 @@
         cursor: not-allowed !important;
         opacity: 1; // iOS fix for unreadable disabled content
         pointer-events: none; // Future-proof disabling of clicks
-    }
-
-    @media screen and (max-width: $breakpoint--sm) {
-        margin: 0 auto $space-1 auto;
     }
 }
 
